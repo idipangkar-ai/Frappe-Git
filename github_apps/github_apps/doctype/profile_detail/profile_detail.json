@@ -1,0 +1,100 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-11-14 17:09:28.780276",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "first_name",
+  "full_name",
+  "dob",
+  "phone_no",
+  "current_address",
+  "column_break_vchh",
+  "last_name",
+  "reg_no",
+  "email_id",
+  "education",
+  "permanent_address"
+ ],
+ "fields": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name"
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
+  },
+  {
+   "fieldname": "reg_no",
+   "fieldtype": "Data",
+   "label": "Reg No"
+  },
+  {
+   "fieldname": "phone_no",
+   "fieldtype": "Data",
+   "label": "Phone No"
+  },
+  {
+   "fieldname": "email_id",
+   "fieldtype": "Data",
+   "label": "Email Id"
+  },
+  {
+   "fieldname": "current_address",
+   "fieldtype": "Small Text",
+   "label": "Current Address"
+  },
+  {
+   "fieldname": "permanent_address",
+   "fieldtype": "Small Text",
+   "label": "Permanent Address "
+  },
+  {
+   "fieldname": "education",
+   "fieldtype": "Data",
+   "label": "Education"
+  },
+  {
+   "fieldname": "dob",
+   "fieldtype": "Data",
+   "label": "D.O.B"
+  },
+  {
+   "fieldname": "column_break_vchh",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-14 17:15:17.523493",
+ "modified_by": "Administrator",
+ "module": "Github Apps",
+ "name": "Profile Detail",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
